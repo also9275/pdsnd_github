@@ -13,6 +13,12 @@ project has only 1 python file - bikeshare.py. In order to run the code, use fol
 python bikeshare.py
 ```
 
+### Install dependencies
+to install pandas please use this command:
+```python
+pip install pandas
+```
+
 ### Credits
 This project is part of *Programming for Data Science with Python* on Udacity.
 
