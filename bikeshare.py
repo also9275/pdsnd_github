@@ -1,6 +1,5 @@
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -198,6 +197,7 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        # calling different function to collect required statistics, check docstring for more info
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
