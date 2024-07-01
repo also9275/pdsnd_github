@@ -18,6 +18,10 @@ to install pandas please use this command:
 ```python
 pip install pandas
 ```
+to install numpy please use this command:
+```python
+pip install numpy
+```
 
 ### Credits
 This project is part of *Programming for Data Science with Python* on Udacity.
